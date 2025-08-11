@@ -745,7 +745,7 @@ h3 {
     white-space: nowrap;   
 }
 .ani1{
-    animation: textflow1 10s linear infinite;
+    animation: textflow1 15s linear infinite;
 }
 
 /* 왼쪽에서 오른쪽 */
@@ -760,7 +760,7 @@ h3 {
     white-space: nowrap;   
 }
 .track4.ani1 {
-  animation: textflow1 10s linear infinite;
+  animation: textflow1 15s linear infinite;
   animation-direction: reverse;  /* ← 이 한 줄만 추가! */
 }
 
@@ -795,3 +795,4 @@ h3 {
     margin-top: 6px;
 
 }
+
