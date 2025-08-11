@@ -357,18 +357,18 @@ h3 {
 .set1 .cafe5 { background-image: url('../images/4.pick/dessert/dessert_5.svg'); }
 
 /* set2 - 오션뷰 */
-.set2 .cafe1 { background-image: url('../images/4.pick/goodmood/goodmood_1.svg'); }
-.set2 .cafe2 { background-image: url('../images/4.pick/goodmood/goodmood_2.svg'); }
-.set2 .cafe3 { background-image: url('../images/4.pick/goodmood/goodmood_3.svg'); }
-.set2 .cafe4 { background-image: url('../images/4.pick/goodmood/goodmood_4.svg'); }
-.set2 .cafe5 { background-image: url('../images/4.pick/goodmood/goodmood_5.svg'); }
+.set2 .cafe1 { background-image: url('../images/4.pick/oceanview/oceanview_1.svg'); }
+.set2 .cafe2 { background-image: url('../images/4.pick/oceanview/oceanview_2.jpg'); }
+.set2 .cafe3 { background-image: url('../images/4.pick/oceanview/oceanview_3.jpg'); }
+.set2 .cafe4 { background-image: url('../images/4.pick/oceanview/oceanview_4.svg'); }
+.set2 .cafe5 { background-image: url('../images/4.pick/oceanview/oceanview_5.svg'); }
 
 /* set3 - 분위기 좋은 */
-.set3 .cafe1 { background-image: url('../images/4.pick/oceanview/oceanview_1.svg'); }
-.set3 .cafe2 { background-image: url('../images/4.pick/oceanview/oceanview_2.svg'); }
-.set3 .cafe3 { background-image: url('../images/4.pick/oceanview/oceanview_3.svg'); }
-.set3 .cafe4 { background-image: url('../images/4.pick/oceanview/oceanview_4.svg'); }
-.set3 .cafe5 { background-image: url('../images/4.pick/oceanview/oceanview_5.svg'); }
+.set3 .cafe1 { background-image: url('../images/4.pick/goodmood/goodmood_1.svg'); }
+.set3 .cafe2 { background-image: url('../images/4.pick/goodmood/goodmood_2.svg'); }
+.set3 .cafe3 { background-image: url('../images/4.pick/goodmood/goodmood_3.svg'); }
+.set3 .cafe4 { background-image: url('../images/4.pick/goodmood/goodmood_4.svg'); }
+.set3 .cafe5 { background-image: url('../images/4.pick/goodmood/goodmood_5.svg'); }
 
 
 
