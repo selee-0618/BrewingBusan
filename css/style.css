@@ -99,7 +99,7 @@ body {
 }
 
 #wrap {
-    min-width: 1320px;
+    min-width: 1400px;
     overflow: hidden;
 }
 
@@ -793,4 +793,5 @@ h3 {
 .inner_footer .op{
     opacity: 0.6;
     margin-top: 6px;
+
 }
