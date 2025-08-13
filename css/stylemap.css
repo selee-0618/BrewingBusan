@@ -1,0 +1,702 @@
+
+/* 카페지도 start */
+/* 지역이름 -> 지도 */
+
+#map {
+    height: 865px;
+    position: relative;
+}
+
+.inner_map {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    height: 865px;
+}
+.inner_map .map_illust{
+    position: absolute;
+    top: 680px;
+    right: 0;
+    z-index: 2;
+}
+.link {
+    padding-top: 150px;
+    padding-left: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.link p {
+    margin: 20px 0 45px;
+}
+
+.link ul {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.link ul li a {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    color: #FF643C;
+    border-radius: 40px;
+    border: 2px solid #FF643C;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.link ul li a:hover {
+    background-color: #FF643C;
+    color: #fff;
+}
+
+.img_wrap {
+    margin-top: 145px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+
+.img_slide {
+    position: relative;
+
+}
+.center p img{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 680px;
+    background-size: cover
+}
+/* .img3, .img5 {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 100%;
+    height: 680px;
+    background-size: cover
+} */
+
+.img1 {
+    z-index: 2;
+    background: url(../images/3.map/map/map_1.svg) no-repeat left center;
+}
+
+.img2 {
+    background: url(../images/3.map/map/map_2.svg) no-repeat left center;
+}
+
+.img3 {
+    background: url(../images/3.map/map/map_3.svg) no-repeat left center;
+}
+
+.img4 {
+    background: url(../images/3.map/map/map_4.svg) no-repeat left center;
+}
+
+.img5 {
+    background: url(../images/3.map/map/map_5.svg) no-repeat left center;
+}
+
+
+/* 지도클릭 슬라이드 연동 */
+.map_place_wrap{
+    position: relative;
+    top: 284px;
+    left: -528px;
+    z-index: 10;
+}
+.place li {
+  position: absolute;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.place li:nth-child(1) {
+  top: 364px;
+  left: 871px;
+}
+
+.place li:nth-child(2) {
+  top: 395px;
+  left: 941px;
+}
+
+.map_slide {
+  width: 443px;
+}
+
+.map_slide>section>div {
+  width: 443px;
+  height: 531px;
+  font-size: 60px;
+  text-align: center;
+}
+/* slick */
+.map_slide .slider {
+  width: 100%;
+}
+
+.map_slide .slick-slide {
+  margin: 0px 20px;
+}
+
+.map_slide .slick-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* .map_slide .slick-prev:before,
+.map_slide .slick-next:before {
+  color: black;
+} */
+
+
+.map_slide .slick-slide {
+  transition: all ease-in-out .3s;
+}
+
+.map_slide .slick-next:before {
+  content: 'prev';
+}
+
+.map_slide .slick-next {
+  right: -30px !important;
+}
+
+.map_slide .slick-prev:before {
+  content: 'next';
+}
+
+.map_slide .slick-prev {
+  left: -45px;
+}
+
+
+
+.map_slide .slick-dots {
+  bottom: -40px;
+}
+
+.map_slide .slick-dots li button:before {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  position: absolute;
+  z-index: 10;
+  width: 83px;
+  height: 29px;
+  text-align: center;
+  background-color: #552E28;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0;
+}
+
+/* 부산진구 */
+.img1 .map_slide .slick-dots li button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 600px;
+  opacity: 0;
+}
+
+.img1 .map_slide .slick-dots li:nth-child(1) button:before {
+  top: -645px;
+  left: 570.8px;
+  content: '연화제과';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(1) button:after {
+  top: -705px;
+  left: 595px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.img1 .map_slide .slick-dots li:nth-child(2) button:before {
+  top: -517px;
+  left: 520.8px;
+  content: '커피팀버';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(2) button:after {
+  top: -577px;
+  left: 545px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img1 .map_slide .slick-dots li:nth-child(3) button:before {
+  top: -538px;
+  left: 751px;
+  width: 137px;
+  content: '리짙커피로스터스';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(3) button:after {
+  top: -598px;
+  left: 800px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img1 .map_slide .slick-dots li:nth-child(4) button:before {
+  top: -428px;
+  left: 690px;
+  content: '카페벽돌';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(4) button:after {
+  top: -488px;
+  left: 711px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img1 .map_slide .slick-dots li:nth-child(5) button:before {
+  top: -375px;
+  left: 774px;
+  width: 96px;
+  content: '디베르티티';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(5) button:after {
+  top: -436px;
+  left: 804px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img1 .map_slide .slick-dots li:nth-child(6) button:before {
+  top: -303px;
+  left: 531px;
+  width: 123px;
+  content: '해피파이갤러리';
+}
+
+.img1 .map_slide .slick-dots li:nth-child(6) button:after {
+  top: -364px;
+  left: 574px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+
+
+/* 중구 */
+
+.img2 .map_slide .slick-dots li button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 600px;
+  opacity: 0;
+}
+
+.img2 .map_slide .slick-dots li:nth-child(1) button:before {
+  top: -680px;
+  left: 680px;
+  content: '스크러피';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(1) button:after {
+  top: -740px;
+  left: 705px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.img2 .map_slide .slick-dots li:nth-child(2) button:before {
+  top: -551px;
+  left: 882px;
+  content: '커피팀버';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(2) button:after {
+  top: -610px;
+  left: 906px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+
+.img2 .map_slide .slick-dots li:nth-child(3) button:before {
+  top: -468px;
+  left: 332px;
+  width: 137px;
+  content: '리짙커피로스터스';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(3) button:after {
+  top: -528px;
+  left: 384px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img2 .map_slide .slick-dots li:nth-child(4) button:before {
+  top: -445px;
+  left: 612px;
+  content: '카페벽돌';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(4) button:after {
+  top: -505px;
+  left: 635px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img2 .map_slide .slick-dots li:nth-child(5) button:before {
+  top: -379px;
+  left: 369px;
+  width: 96px;
+  content: '디베르티티';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(5) button:after {
+  top: -440px;
+  left: 400px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img2 .map_slide .slick-dots li:nth-child(6) button:before {
+  top: -295px;
+  left: 494px;
+  width: 123px;
+  content: '해피파이갤러리';
+}
+
+.img2 .map_slide .slick-dots li:nth-child(6) button:after {
+  top: -355px;
+  left: 536px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.map_slide .slick-dots li.slick-active button:before,
+.map_slide .slick-dots li.slick-active button:after {
+  opacity: 1;
+}
+
+
+/* 사상구 */
+
+.img3 .map_slide .slick-dots li button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 600px;
+  opacity: 0;
+}
+
+.img3 .map_slide .slick-dots li:nth-child(1) button:before {
+  top: -712px;
+  left: 909px;
+  content: '디베르소';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(1) button:after {
+  top: -772px;
+  left: 933px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.img3 .map_slide .slick-dots li:nth-child(2) button:before {
+  top: -545px;
+  left: 642px;
+  content: '커피팀버';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(2) button:after {
+  top: -605px;
+  left: 665px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img3 .map_slide .slick-dots li:nth-child(3) button:before {
+  top: -492px;
+  left: 791px;
+  width: 137px;
+  content: '리짙커피로스터스';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(3) button:after {
+  top: -558px;
+  left: 841px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img3 .map_slide .slick-dots li:nth-child(4) button:before {
+  top: -383px;
+  left: 797px;
+  content: '카페벽돌';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(4) button:after {
+  top: -443px;
+  left: 822px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img3 .map_slide .slick-dots li:nth-child(5) button:before {
+  top: -322px;
+  left: 596px;
+  width: 96px;
+  content: '디베르티티';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(5) button:after {
+  top: -382px;
+  left: 625px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img3 .map_slide .slick-dots li:nth-child(6) button:before {
+  top: -241px;
+  left: 421px;
+  width: 123px;
+  content: '해피파이갤러리';
+}
+
+.img3 .map_slide .slick-dots li:nth-child(6) button:after {
+  top: -301px;
+  left: 464px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.map_slide .slick-dots li.slick-active button:before,
+.map_slide .slick-dots li.slick-active button:after {
+  opacity: 1;
+}
+
+/* 해운대/수영구 */
+
+.img4 .map_slide .slick-dots li button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 600px;
+  opacity: 0;
+}
+
+.img4 .map_slide .slick-dots li:nth-child(1) button:before {
+  top: -584px;
+  left: 636px;
+  width: 109px;
+  content: '언더커피광안';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(1) button:after {
+  top: -644px;
+  left: 673px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.img4 .map_slide .slick-dots li:nth-child(2) button:before {
+  top: -478px;
+  left: 753px;
+  content: '커피팀버';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(2) button:after {
+  top: -538px;
+  left: 776px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img4 .map_slide .slick-dots li:nth-child(3) button:before {
+  top: -481px;
+  left: 907px;
+  width: 137px;
+  content: '리짙커피로스터스';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(3) button:after {
+  top: -541px;
+  left: 956px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img4 .map_slide .slick-dots li:nth-child(4) button:before {
+  top: -395px;
+  left: 387px;
+  content: '카페벽돌';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(4) button:after {
+  top: -454px;
+  left: 408px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img4 .map_slide .slick-dots li:nth-child(5) button:before {
+  top: -375px;
+  left: 616px;
+  width: 96px;
+  content: '디베르티티';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(5) button:after {
+  top: -435px;
+  left: 646px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img4 .map_slide .slick-dots li:nth-child(6) button:before {
+  top: -307px;
+  left: 378px;
+  width: 123px;
+  content: '해피파이갤러리';
+}
+
+.img4 .map_slide .slick-dots li:nth-child(6) button:after {
+  top: -367px;
+  left: 422px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.map_slide .slick-dots li.slick-active button:before,
+.map_slide .slick-dots li.slick-active button:after {
+  opacity: 1;
+}
+
+
+/* 기장 */
+
+.img5 .map_slide .slick-dots li button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 600px;
+  opacity: 0;
+}
+
+.img5 .map_slide .slick-dots li:nth-child(1) button:before {
+  top: -708px;
+  left: 816.5px;
+  content: '웨이브온';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(1) button:after {
+  top: -768px;
+  left: 842px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.img5 .map_slide .slick-dots li:nth-child(2) button:before {
+  top: -651px;
+  left: 649.5px;
+  content: '커피팀버';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(2) button:after {
+  top: -711px;
+  left: 674px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img5 .map_slide .slick-dots li:nth-child(3) button:before {
+  top: -514px;
+  left: 670.5px;
+  width: 137px;
+  content: '리짙커피로스터스';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(3) button:after {
+  top: -574px;
+  left: 720px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img5 .map_slide .slick-dots li:nth-child(4) button:before {
+  top: -445px;
+  left: 499.5px;
+  content: '카페벽돌';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(4) button:after {
+  top: -505px;
+  left: 525px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img5 .map_slide .slick-dots li:nth-child(5) button:before {
+  top: -331px;
+  left: 543.5px;
+  width: 96px;
+  content: '디베르티티';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(5) button:after {
+  top: -391px;
+  left: 574px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+.img5 .map_slide .slick-dots li:nth-child(6) button:before {
+  top: -210px;
+  left: 531.5px;
+  width: 123px;
+  content: '해피파이갤러리';
+}
+
+.img5 .map_slide .slick-dots li:nth-child(6) button:after {
+  top: -270px;
+  left: 573px;
+  background: url(../images/3.map/Locator.svg) no-repeat center;
+  height: 50px;
+  width: 36px;
+}
+
+.map_slide .slick-dots li.slick-active button:before,
+.map_slide .slick-dots li.slick-active button:after {
+  opacity: 1;
+}
