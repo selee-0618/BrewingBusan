@@ -1,96 +1,4 @@
-@charset 'utf-8';
 
-/* webfont */
-
-.noto-sans-kr-<uniquifier> {
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-html,
-body,
-div,
-span,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-em,
-img,
-small,
-strong,
-b,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tr,
-th,
-td,
-article,
-aside,
-footer,
-header,
-nav,
-section,
-summary,
-video,
-* {
-    padding: 0;
-    margin: 0;
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-body,
-html {
-    /* Prevent font scaling in landscape */
-
-    -webkit-text-size-adjust: none;
-    /*Chrome, Safari, newer versions of Opera*/
-
-    -moz-text-size-adjust: none;
-    /*Firefox*/
-
-    -ms-text-size-adjust: none;
-    /*Ie*/
-
-    -o-text-size-adjust: none;
-    /*old versions of Opera*/
-}
-
-body {
-    font-family: 'Pretendard-Regular';
-    font-size: 20px;
-    line-height: 28px;
-    color: #556378;
-    letter-spacing: -0.5px;
-}
 /* 카페지도 start */
 /* 지역이름 -> 지도 */
 
@@ -312,10 +220,6 @@ body {
 }
 
 .img1 .map_slide .slick-dots li:nth-child(1) button:before {
-  font-family: "Noto Sans KR", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
   top: -645px;
   left: 570.8px;
   content: '연화제과';
@@ -797,4 +701,5 @@ body {
   opacity: 1;
 
 }
+
 
