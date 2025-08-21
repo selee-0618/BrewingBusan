@@ -194,11 +194,10 @@
 
 .map_slide .slick-dots li button:before {
   font-family: "Noto Sans KR", sans-serif;
-  font-weight: 600;
   font-style: normal;
   font-size: 15px;
-  line-height: 26px;
-  font-weight: 700;
+  line-height: 27px;
+  font-weight: 600;
   letter-spacing: -0.3px;
   position: absolute;
   z-index: 10;
@@ -223,7 +222,7 @@
 }
 
 .img1 .map_slide .slick-dots li:nth-child(1) button:before {
-  top: -644px;
+  top: -645.5px;
   left: 570.5px;
   content: '연화제과';
 }
@@ -237,8 +236,8 @@
 }
 
 .img1 .map_slide .slick-dots li:nth-child(2) button:before {
-  top: -516px;
-  left: 520px;
+  top: -517.5px;
+  left: 520.5px;
   content: '커피팀버';
 }
 
@@ -250,8 +249,8 @@
   width: 36px;
 }
 .img1 .map_slide .slick-dots li:nth-child(3) button:before {
-  top: -537px;
-  left: 750px;
+  top: -538.5px;
+  left: 750.5px;
   width: 137px;
   content: '리짙커피로스터스';
 }
@@ -264,7 +263,7 @@
   width: 36px;
 }
 .img1 .map_slide .slick-dots li:nth-child(4) button:before {
-  top: -427px;
+  top: -428.5px;
   left: 689px;
   content: '카페벽돌';
 }
@@ -277,8 +276,8 @@
   width: 36px;
 }
 .img1 .map_slide .slick-dots li:nth-child(5) button:before {
-  top: -374px;
-  left: 773px;
+  top: -375.5px;
+  left: 773.5px;
   width: 96px;
   content: '디베르티티';
 }
@@ -291,9 +290,9 @@
   width: 36px;
 }
 .img1 .map_slide .slick-dots li:nth-child(6) button:before {
-  top: -302px;
-  left: 531px;
-  width: 122.2px;
+  top: -303.5px;
+  left: 530.5px;
+  width: 123px;
   content: '해피파이갤러리';
 }
 
@@ -704,3 +703,4 @@
   opacity: 1;
 
 }
+
