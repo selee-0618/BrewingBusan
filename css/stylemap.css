@@ -197,7 +197,7 @@
   font-style: normal;
   font-size: 15px;
   line-height: 27px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.3px;
   position: absolute;
   z-index: 10;
@@ -418,8 +418,8 @@
 }
 
 .img3 .map_slide .slick-dots li:nth-child(1) button:before {
-  top: -711.5px;
-  left: 908.2px;
+  top: -712.5px;
+  left: 908.5px;
   content: '디베르소';
 }
 
@@ -432,8 +432,8 @@
 }
 
 .img3 .map_slide .slick-dots li:nth-child(2) button:before {
-  top: -544.5px;
-  left: 641.2px;
+  top: -545.5px;
+  left: 641.5px;
   content: '커피팀버';
 }
 
@@ -445,8 +445,8 @@
   width: 36px;
 }
 .img3 .map_slide .slick-dots li:nth-child(3) button:before {
-  top: -491.5px;
-  left: 790.2px;
+  top: -492.5px;
+  left: 790.5px;
   width: 137px;
   content: '리짙커피로스터스';
 }
@@ -459,8 +459,8 @@
   width: 36px;
 }
 .img3 .map_slide .slick-dots li:nth-child(4) button:before {
-  top: -382.5px;
-  left: 796.2px;
+  top: -383.5px;
+  left: 796.5px;
   content: '카페벽돌';
 }
 
@@ -472,8 +472,8 @@
   width: 36px;
 }
 .img3 .map_slide .slick-dots li:nth-child(5) button:before {
-  top: -321.5px;
-  left: 595.2px;
+  top: -322.5px;
+  left: 595.5px;
   width: 96px;
   content: '디베르티티';
 }
@@ -486,8 +486,8 @@
   width: 36px;
 }
 .img3 .map_slide .slick-dots li:nth-child(6) button:before {
-  top: -240.5px;
-  left: 420.2px;
+  top: -241.5px;
+  left: 420.5px;
   width: 123px;
   content: '해피파이갤러리';
 }
@@ -516,7 +516,7 @@
 }
 
 .img4 .map_slide .slick-dots li:nth-child(1) button:before {
-  top: -583.5px;
+  top: -584.5px;
   left: 636px;
   width: 109px;
   content: '언더커피광안';
@@ -531,8 +531,8 @@
 }
 
 .img4 .map_slide .slick-dots li:nth-child(2) button:before {
-  top: -477.5px;
-  left: 752.2px;
+  top: -478.5px;
+  left: 752.5px;
   content: '커피팀버';
 }
 
@@ -544,8 +544,8 @@
   width: 36px;
 }
 .img4 .map_slide .slick-dots li:nth-child(3) button:before {
-  top: -480.5px;
-  left: 906.2px;
+  top: -481.5px;
+  left: 907px;
   width: 137px;
   content: '리짙커피로스터스';
 }
@@ -558,8 +558,8 @@
   width: 36px;
 }
 .img4 .map_slide .slick-dots li:nth-child(4) button:before {
-  top: -394.5px;
-  left: 386.2px;
+  top: -395.5px;
+  left: 386.5px;
   content: '카페벽돌';
 }
 
@@ -571,8 +571,8 @@
   width: 36px;
 }
 .img4 .map_slide .slick-dots li:nth-child(5) button:before {
-  top: -374.5px;
-  left: 615.2px;
+  top: -375.5px;
+  left: 615.5px;
   width: 96px;
   content: '디베르티티';
 }
@@ -585,8 +585,8 @@
   width: 36px;
 }
 .img4 .map_slide .slick-dots li:nth-child(6) button:before {
-  top: -306.5px;
-  left: 377.2px;
+  top: -307.5px;
+  left: 377.5px;
   width: 123px;
   content: '해피파이갤러리';
 }
@@ -616,8 +616,8 @@
 }
 
 .img5 .map_slide .slick-dots li:nth-child(1) button:before {
-  top: -707.5px;
-  left: 816px;
+  top: -708.5px;
+  left: 816.5px;
   content: '웨이브온';
 }
 
@@ -630,8 +630,8 @@
 }
 
 .img5 .map_slide .slick-dots li:nth-child(2) button:before {
-  top: -650.5px;
-  left: 649.2px;
+  top: -651.5px;
+  left: 649.5px;
   content: '커피팀버';
 }
 
@@ -643,8 +643,8 @@
   width: 36px;
 }
 .img5 .map_slide .slick-dots li:nth-child(3) button:before {
-  top: -513.5px;
-  left: 670px;
+  top: -514.5px;
+  left: 670.5px;
   width: 137px;
   content: '리짙커피로스터스';
 }
@@ -657,8 +657,8 @@
   width: 36px;
 }
 .img5 .map_slide .slick-dots li:nth-child(4) button:before {
-  top: -444.5px;
-  left: 499px;
+  top: -445.5px;
+  left: 499.5px;
   content: '카페벽돌';
 }
 
@@ -670,8 +670,8 @@
   width: 36px;
 }
 .img5 .map_slide .slick-dots li:nth-child(5) button:before {
-  top: -330.5px;
-  left: 543px;
+  top: -331.5px;
+  left: 543.5px;
   width: 96px;
   content: '디베르티티';
 }
@@ -684,8 +684,8 @@
   width: 36px;
 }
 .img5 .map_slide .slick-dots li:nth-child(6) button:before {
-  top: -209.5px;
-  left: 531px;
+  top: -210.5px;
+  left: 531.5px;
   width: 123px;
   content: '해피파이갤러리';
 }
@@ -703,5 +703,6 @@
   opacity: 1;
 
 }
+
 
 
