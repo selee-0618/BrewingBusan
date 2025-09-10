@@ -142,7 +142,7 @@ body, body * {
   background-color: transparent;
   position: fixed;
   top: 0; left: 0; width: 100%;
-  z-index: 2;               /* 비디오보다 위 */
+  z-index: 999;               /* 비디오보다 위 */
 }
 
 .header_scrolled{
@@ -819,3 +819,4 @@ h3 {
     margin-top: 6px;
 
 }
+
