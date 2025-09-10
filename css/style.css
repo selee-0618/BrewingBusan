@@ -116,26 +116,41 @@ body, body * {
 
 /* header */
 
-#header {
-    height: 1000px;
-    background: url(../images/1.main/main_visual.svg) no-repeat center top;
-    background-size: 1920px;
+#header{
+  position: relative;       /* 비디오의 기준점 */
+  height: 1000px;           /* 필요 시 100vh로도 가능 */
+  overflow: hidden;         /* 넘친 영상 잘라내기 */
+  /* background는 비디오로 대체하니 주석/삭제 권장
+  background: url(../images/1.main/main_visual.svg) no-repeat center top;
+  background-size: 1920px;
+  */
 }
 
-.header {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
+/* 배경 비디오를 백그라운드처럼 꽉 채우기 */
+#header .bg-video{
+  position: absolute;
+  inset: 0;                 /* top:0; right:0; bottom:0; left:0; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* 비율 유지 + 빈공간 없이 채움 */
+  object-position: center center; /* 항상 중앙에 고정 */
+  z-index: 0;
 }
 
-.header_scrolled {
-    background-color: white;
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+/* 헤더(네비)는 영상 위로 */
+.header{
+  background-color: transparent;
+  position: fixed;
+  top: 0; left: 0; width: 100%;
+  z-index: 2;               /* 비디오보다 위 */
 }
 
+.header_scrolled{
+  background-color: #fff;
+  box-shadow: 0 2px 25px rgba(0,0,0,.1);
+}
+
+/* 이하 동일 */
 .inner_header {
     width: 1320px;
     height: 74px;
@@ -162,7 +177,6 @@ body, body * {
 .gnb li a:hover {
     color: #FF643C;
 }
-
 /* container */
 
 
@@ -803,4 +817,5 @@ h3 {
 .inner_footer .op{
     opacity: 0.6;
     margin-top: 6px;
+
 }
