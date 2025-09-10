@@ -91,7 +91,7 @@ html {
 }
 
 body {
-    font-family: 'Pretendard-Regular';
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
     font-size: 20px;
     line-height: 28px;
     color: #556378;
@@ -819,4 +819,5 @@ h3 {
     margin-top: 6px;
 
 }
+
 
